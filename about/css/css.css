@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+.about__body {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.about__header {
+	padding-bottom: 110px;
+	padding-top: 50px;
+	margin: 0 auto;
+}
+.about__text {
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	text-align: center;
+	color:  #86878B;
+	margin: 40px 0 0 0 ;
+}
+.about__row {
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	margin-bottom: 58px;
+}
+.about__colum {
+	padding: 0px 15px;
+	flex: 0 0 33.333% ;
+}
+.about__line{
+	width: 145px;
+	height: 1px;
+	background-color: #EC7979;
+	margin: 0 auto;
+}
+
+.title {
+	height: 150px;
+	font-family: Raleway;
+	font-size: 36px;
+	font-style: normal;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding: 50px 0 0 0;
+
+}
+.item-about__icon {
+	display: flex;
+	align-items: center;
+	justify-content: center ;
+	margin: 0 auto;
+}
+.item-about__title {
+	height: 100px;
+	font-family: Open Sans;
+	font-size: 24px;
+	font-style: normal;
+	text-align: center;
+	padding: 39px 0 0 0 ;
+	margin-bottom: 8px;
+
+}
+.item-about__text {
+	height: 105px;
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	text-align: center;
+
+
+
+}
