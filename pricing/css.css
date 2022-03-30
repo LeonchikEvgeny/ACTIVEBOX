@@ -53,6 +53,7 @@ body{
 	margin: 0 auto;
 }
 .pricing__title{
+   text-transform: uppercase;
    height: 150px;
    font-family: Raleway;
    font-size: 36px;
@@ -81,7 +82,7 @@ body{
    text-align: center;
 }
 .column__price {
-	padding: 0px 15px;
+	margin: 0px 15px;
 	flex: 0 0 33.333% ;
    width: 370px;
    height: 510px;
@@ -130,4 +131,5 @@ body{
 }
 .column__price:nth-child(even){
  margin-top: -20px;
+ box-shadow: 0 4px 10px 0 rgba(51, 51, 51, 0.2);
 }
