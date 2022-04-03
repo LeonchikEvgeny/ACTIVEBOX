@@ -1,6 +1,7 @@
 
 .pricing {
 	width: 1170px;
+   height: 850px;
 	margin: 0 auto;
    background-color: #F5F5F5;
    ;
@@ -13,7 +14,7 @@
 .pricing__title{
    text-transform: uppercase;
    height: 150px;
-   font-family: Raleway;
+   font-family: 'Raleway',sans-serif;
    font-size: 36px;
    text-align: center;
    padding: 50px 0 0 0;
@@ -41,7 +42,6 @@
 }
 .column__price {
 	margin: 0px 15px;
-	flex: calc;
    width: 370px;
    height: 510px;
 }
