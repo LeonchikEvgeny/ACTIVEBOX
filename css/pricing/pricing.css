@@ -1,5 +1,6 @@
 body{
 	width: 1508px;
+   margin: 0 auto;
    
 }
 .pricing {
@@ -100,5 +101,5 @@ body{
 .stylish {
    height: 442px;
    width: 1510px;
-   background: url(/1/images/stylish/image.jpg);
+   background-image: url('../../images/stylish/image.jpg');
 }
