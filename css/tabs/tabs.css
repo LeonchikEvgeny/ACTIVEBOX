@@ -1,11 +1,6 @@
 
-body {
-	width: 1170px;
-	margin: 0 auto;
-	background-color: white;
-}
-
 .block{
+	margin: 0 auto;
 	margin-top: 99px;
 	height: 540px;
 	width: 1170px;

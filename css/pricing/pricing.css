@@ -1,6 +1,9 @@
-
+body{
+	width: 1508px;
+   
+}
 .pricing {
-	width: 1170px;
+	width: 1508px;
    height: 850px;
 	margin: 0 auto;
    background-color: #F5F5F5;
@@ -93,4 +96,9 @@
    height: 510px;
    bottom:30px;
    box-shadow: 0px 10px 10px rgba(0 0 0 / 50%);
+}
+.stylish {
+   height: 442px;
+   width: 1510px;
+   background: url(/1/images/stylish/image.jpg);
 }
