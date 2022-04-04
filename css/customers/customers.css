@@ -49,20 +49,16 @@ body{
    padding: 38px 0 37px 0;
    color: #86878B;
    background-color: #E2E2E2;
-}
-.customers__triangle{
-   display: flex;
-   justify-content: space-between;
-   width: 800px;
-   margin-left: 73px ; 
+   border-radius: 10px;
 }
 .triangle-down{
    width: 0;
 	height: 0;
-	border-left: 10px solid transparent;
-	border-right: 10px solid transparent;
-	border-top: 20px solid #E2E2E2;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 30px solid #E2E2E2;
    margin-bottom: 46px;
+   margin-left: 80px ; 
 }
 .customers__name{
    display: flex;
@@ -70,7 +66,7 @@ body{
 }
 .name__row{
    display: flex;
-   width: 1170px;
+   margin-left: 16px;
 }
 .name__pfoto{
    height: 70px;
