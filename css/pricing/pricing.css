@@ -60,7 +60,6 @@ body{
    height: 100px;
    margin-bottom: 1px;
    color: #FFFFFF;
-   font-family: Raleway;
    font-size: 36px;
    font-weight: 700;
    line-height: 2.7;
@@ -81,25 +80,20 @@ body{
    color: #86878B;
    background: #FFFFFF;
    margin-bottom: 1px;
-   font-family: Raleway;
+   font-family: 'Raleway', sans-serif;
    font-size: 18px;
    line-height: 2.5;
 }
 .column__price {
-	margin: 0px 15px;
+	margin: 0 15px;
    width: 370px;
    height: 510px;
 }
 .column__price:hover {
    position: relative;
-	margin: 0px 15px;
+	margin: 0 15px;
    width: 370px;
    height: 510px;
    bottom:30px;
-   box-shadow: 0px 10px 10px rgba(0 0 0 / 50%);
-}
-.stylish {
-   height: 442px;
-   width: 1510px;
-   background-image: url('../../images/stylish/image.jpg');
+   box-shadow: 0 10px 10px rgba(0 0 0 / 50%);
 }

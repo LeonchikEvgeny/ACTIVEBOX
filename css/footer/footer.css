@@ -1,0 +1,22 @@
+.footer{
+   height: 154px;
+   width: 1510px;
+   background-color: #000000;
+   margin-top: 50px;
+}
+.footer__images{
+   height: 53.2px;
+   width: 640px;
+   margin: 0 0 0 435px; 
+   padding-top: 39px;
+}
+.footer__images img{
+   margin-left: 44px;
+}
+.footer__text{
+   font-family: "Raleway", sans-serif;
+   color: #FFFFFF80;
+   font-size: 18px;
+   text-align: center;
+   padding-top: 64px;
+}

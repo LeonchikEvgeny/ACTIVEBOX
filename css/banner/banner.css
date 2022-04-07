@@ -1,0 +1,90 @@
+.banner {
+   height: 1026px;
+   width: 1510px;
+}
+.banner__header {
+   height: 75px;
+   width: 1510px;
+   background-color: #000000;
+   display: flex;
+}
+.banner__logo {
+   margin-left: 115px;
+   padding-top: 22px;
+}
+.banner__menu{
+   display: flex;
+   margin-left: 567px;
+}
+.banner__menu p{
+   height: 75px;
+   width: 130px;
+   color: #FFFFFF;
+   background-color: #000000 ;
+   font-family: "Open Sans",sans-serif;
+   font-weight: 600;
+   line-height: 5.2;
+}
+.banner__row{
+   height: 951px;
+   width: 1510px;
+   background-image: url(../../images/banner/axit.png);
+   display: flex;
+}
+.axit__image{
+   height: 100px;
+   width: 280px;
+   padding: 231px 0 0 0;
+   margin-left: 170px;
+}
+.column__axit h1{
+   font-family: "Raleway",sans-serif;
+   color: #FFFFFF;
+   height:170px ;
+   width: 670px;
+   padding: 128px 0 0 0;
+   margin-left: 170px;
+   font-size: 48px;
+   font-weight: 500;
+   line-height: 56px;
+}
+.column__axit hr{
+   width: 170px;
+   height: 1px;
+   background-color: #FFFFFF;
+   margin: 170px 0 0 170px;
+}
+.column__axit p{
+   height: 42px;
+   width: 270px;
+   color: #FFFFFF;
+   font-family: "Raleway",sans-serif;
+   font-size: 18px;
+   margin: 42px 0 0 170px;
+}
+.column__form{
+   height: 450px;
+   width: 470px;
+   background-color: #FFFFFF;
+   margin: 208px 0 0 30px;
+   border-radius: 10px;
+}
+.column__form h1{
+   font-family: "Open Sans",sans-serif;
+   text-transform: uppercase;
+   font-size: 24px;
+   font-weight: 700;
+   height: 90px;
+   width: 367px;
+   margin-left: 53px;
+   text-align: center;
+   line-height: 3.8;
+}
+.column__form p{
+height: 38px;
+width: 370px;
+margin-left: 50px;
+}
+.column__form div{
+margin-top: 90px;
+}

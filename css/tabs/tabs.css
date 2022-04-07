@@ -27,7 +27,7 @@
 		display: flex;
 		flex-wrap: wrap;
 		margin: 0 auto;
-		font-family: 'Open Sans';
+		font-family: 'Open Sans', sans-serif;
 		text-align: center;
 	}
 	.tab{
@@ -50,7 +50,7 @@
 		content: "";
 		width: 182.8px;
 		height: 5px;
-		left: 0px;
+		left: 0;
 		right: 0;
 		bottom: -5px;
 		background-color: white;
@@ -116,7 +116,7 @@
 	padding-top: 40px;
 	height: 124px;
 	width: 570px;
-	font-family: Open Sans;
+	font-family: "Open Sans", sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	text-align: left;
@@ -124,7 +124,7 @@
 	margin-bottom: 27px;
 }
 .text{
-	font-family: Raleway;
+	font-family: "Raleway", sans-serif;
 	font-size: 18px;
 	text-align: left;
 	height: 210px;
@@ -137,12 +137,12 @@
 	height: 58px;
 	width: 270px;
 	font-size: 15px;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 }
 .textbutton:hover{
 	background-color: #AB4949;
 }
 .textbutton:active{
 	background-color: #EC7979;
-	box-shadow: inset 0px 0px 10px #AB4949;
+	box-shadow: inset 0 0 10px #AB4949;
 }

@@ -1,0 +1,31 @@
+.social{
+   display: flex;
+   height: 140px;
+   width: 1510px;
+   background-color: #F8EFEF;
+}
+.social__text h1{
+   margin-left: 170px;
+   height: 60px;
+   width: 470px;
+   line-height: 2.4;
+   font-family: "Open Sans",sans-serif;
+   font-size: 24px;
+   font-weight: 700;
+   text-align: left;
+}
+.social__text p{
+   height: 42px;
+   width: 470px;
+   margin: 18px 0 0 170px;
+   font-family: "Raleway",sans-serif;
+   font-size: 18px;
+   text-align: left;
+   color: #86878B;
+}
+.social__network{
+   padding: 40px 0 0 0;
+}
+.social__network img{
+   margin-left: 45px;
+}

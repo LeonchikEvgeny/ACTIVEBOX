@@ -1,0 +1,45 @@
+.stylish {
+   height: 442px;
+   width: 1510px;
+   background-image: url('../../images/stylish/image.jpg');
+}
+
+.stylish__title {
+   font-family: 'Raleway', sans-serif;
+   color: #FFFFFF;
+   font-size: 36px;
+   height: 200px;
+   width: 1170px;
+   margin: 0 auto;
+   text-align: center;
+   padding: 125px 0 40px 0;
+}
+
+.stylish__line {
+   height: 1px;
+   width: 170px;
+   background-color: #FFFFFF;
+   margin: 0 auto;
+}
+
+.stylish__text {
+   font-family: 'Raleway', sans-serif;
+   height: 18px;
+   color: #FFFFFF;
+   text-align: center;
+   margin-top: 40px;
+}
+
+.stylish__textbutton {
+   font-family: "Open Sans", sans-serif;
+   font-weight: 600;
+   font-size: 18px;
+   margin: 73px 0 0 0 ;
+   height: 58px;
+   width: 370px;
+   text-align: center;
+   background-color: transparent;
+   color: #FFFFFF;
+   margin-left: 570px;
+   border: 1px solid #FFFFFF;
+}
