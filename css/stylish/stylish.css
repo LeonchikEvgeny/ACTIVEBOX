@@ -43,3 +43,12 @@
    margin-left: 570px;
    border: 1px solid #FFFFFF;
 }
+.stylish__textbutton:hover{
+   color: #EC7979;
+   border: 2px solid #EC7979;
+
+}
+.stylish__textbutton:active{
+   color: #FFFFFF;
+	background-color: #AB4949;
+}
