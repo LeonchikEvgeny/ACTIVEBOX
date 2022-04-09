@@ -7,6 +7,8 @@
    width: 1510px;
    background-color: #000000;
    display: flex;
+   position: sticky;
+   top: 0px;
 }
 .banner__logo {
    margin-left: 115px;
@@ -86,5 +88,53 @@ width: 370px;
 margin-left: 50px;
 }
 .column__form div{
-margin-top: 90px;
+padding: 45px 0 0 0;
+}
+.column__input{
+   margin-bottom: 33px;
+   font-size: 20px;
+}
+.started__button{
+   font-family: "Open Sans",sans-serif;
+   font-size: 15px;
+   font-weight: 600;
+   height: 60px;
+   width: 470px;
+   color: #FFFFFF;
+   background-color: #EC7979;
+   margin-top: 96px;
+   border-radius:0 0 10px 10px;
+}
+.started__button:hover{
+   background-color: #AB4949;
+}
+.started__button:active{
+   background-color: #EC7979;
+   box-shadow: inset 0 0 10px #AB4949;
+}
+.axit__button{
+   font-family: "Open Sans",sans-serif;
+   font-size: 18px;
+   font-weight: 600;
+   color: #FFFFFF;
+   background-color: transparent;
+   height: 58px;
+   width: 270px;
+   border: 2px solid #FFFFFF;
+   margin: 42px 0 0 170px;
+}
+.axit__button:hover{
+   color: #EC7979;
+   border: 2px solid #EC7979;
+}
+.axit__button:active{
+   color: #FFFFFF;
+	background-color: #AB4949;
+}
+.form__input{
+   font-family: "Open Sans",sans-serif;
+   border-bottom: 1px solid #BDBDBD;
+   width: 370px;
+   margin-bottom: 50px;
+   line-height: 36px;
 }

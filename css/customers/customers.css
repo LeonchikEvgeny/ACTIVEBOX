@@ -48,7 +48,19 @@
    background-color: #E2E2E2;
    border-radius: 10px;
 }
-.triangle-down{
+.column__triangle::after{
+   content: "";
+   width: 0;
+   height: 0;
+   border-left: 20px solid transparent;
+   border-right: 20px solid transparent;
+   border-top: 30px solid #E2E2E2;
+   margin-bottom: 46px;
+   margin-left: 80px;
+   position: absolute;
+}
+
+/*.triangle-down{
    width: 0;
 	height: 0;
 	border-left: 20px solid transparent;
@@ -57,6 +69,7 @@
    margin-bottom: 46px;
    margin-left: 80px ; 
 }
+*/
 .customers__name{
    display: flex;
 
@@ -66,11 +79,13 @@
    margin-left: 16px;
 }
 .user__photo{
+   margin-top: 66px;
    height: 70px;
    width: 70px;
    margin-right: 30px;
 }
 .user__name{
+   margin-top: 66px;
    font-family: "Open Sans", sans-serif;
    font-size: 24px;
    font-weight: 700;
@@ -79,6 +94,7 @@
    line-height: 2.2;
 }
 .user__position{
+   margin-top: 66px;
    height: 21px;
    width: 270px;
    font-family: "Raleway", sans-serif;
