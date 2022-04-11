@@ -1,4 +1,5 @@
 .stylish {
+   position: relative;
    height: 442px;
    width: 1510px;
    background-image: url('../../images/stylish/image.jpg');
@@ -6,7 +7,16 @@
    background-attachment: fixed;
    background-size: 100%;
 }
-
+.stylish::after{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: rgba(0,0,0,.5);
+   z-index: 1;
+}
 .stylish__title {
    font-family: 'Raleway', sans-serif;
    color: #FFFFFF;
@@ -16,6 +26,7 @@
    margin: 0 auto;
    text-align: center;
    padding: 125px 0 40px 0;
+   z-index: 2;
 }
 
 .stylish__line {
@@ -23,6 +34,7 @@
    width: 170px;
    background-color: #FFFFFF;
    margin: 0 auto;
+   z-index: 2;
 }
 
 .stylish__text {
@@ -31,6 +43,7 @@
    color: #FFFFFF;
    text-align: center;
    margin-top: 40px;
+   z-index: 2;
 }
 
 .stylish__textbutton {
@@ -45,13 +58,16 @@
    color: #FFFFFF;
    margin-left: 570px;
    border: 1px solid #FFFFFF;
+   z-index: 2;
 }
 .stylish__textbutton:hover{
    color: #EC7979;
    border: 2px solid #EC7979;
+   z-index: 2;
 
 }
 .stylish__textbutton:active{
    color: #FFFFFF;
 	background-color: #AB4949;
+   z-index: 2;
 }

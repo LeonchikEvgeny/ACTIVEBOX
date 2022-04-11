@@ -9,6 +9,7 @@
    display: flex;
    position: sticky;
    top: 0px;
+   z-index: 4;
 }
 .banner__logo {
    margin-left: 115px;
@@ -20,7 +21,8 @@
 }
 .banner__menu p{
    height: 75px;
-   width: 130px;
+   width: 113px;
+   text-align: center;
    color: #FFFFFF;
    background-color: #000000 ;
    font-family: "Open Sans",sans-serif;
@@ -28,16 +30,33 @@
    line-height: 5.2;
 }
 .banner__row{
+   position: relative;
    height: 951px;
    width: 1510px;
    background-image: url(../../images/banner/axit.png);
    display: flex;
+   background-size: contain;
+   background-repeat: round;
+}
+.banner__row::after{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: rgba(0,0,0,.5);
+   z-index: 2;
 }
 .axit__image{
    height: 100px;
    width: 280px;
    padding: 231px 0 0 0;
    margin-left: 170px;
+}
+.column__axit{
+   position: relative;
+   z-index: 3;
 }
 .column__axit h1{
    font-family: "Raleway",sans-serif;
@@ -70,6 +89,7 @@
    background-color: #FFFFFF;
    margin: 208px 0 0 30px;
    border-radius: 10px;
+   z-index: 3;
 }
 .column__form h1{
    font-family: "Open Sans",sans-serif;

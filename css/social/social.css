@@ -24,7 +24,8 @@
    color: #86878B;
 }
 .social__network{
-   padding: 40px 0 0 0;
+display: flex;
+align-items: center;
 }
 .social__network img{
    margin-left: 45px;
