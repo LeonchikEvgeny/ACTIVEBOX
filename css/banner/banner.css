@@ -1,7 +1,4 @@
-.banner {
-   height: 1026px;
-   width: 1510px;
-}
+
 .banner__header {
    height: 75px;
    width: 1510px;
@@ -29,13 +26,19 @@
    font-weight: 600;
    line-height: 5.2;
 }
+.banner__menu p:hover{
+   background-color: #EC7979;
+}
+.banner__menu p:active{
+   background-color: #AB4949;
+}
 .banner__row{
    position: relative;
    height: 951px;
    width: 1510px;
    background-image: url(../../images/banner/axit.png);
    display: flex;
-   background-size: contain;
+   background-size: cover;
    background-repeat: round;
 }
 .banner__row::after{

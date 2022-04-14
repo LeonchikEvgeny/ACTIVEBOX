@@ -1,4 +1,8 @@
 body{
-	width: 1510px;
    margin: 0 auto;
+}
+@media (max-width:1510px){
+   .body{
+      max-width: 970px;
+   }
 }

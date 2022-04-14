@@ -1,7 +1,6 @@
 .social{
    display: flex;
    height: 140px;
-   width: 1510px;
    background-color: #F8EFEF;
 }
 .social__text h1{
