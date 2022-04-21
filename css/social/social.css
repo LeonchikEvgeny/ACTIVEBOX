@@ -6,26 +6,65 @@
 .social__text h1{
    margin-left: 170px;
    height: 60px;
-   width: 470px;
    line-height: 2.4;
    font-family: "Open Sans",sans-serif;
    font-size: 24px;
    font-weight: 700;
    text-align: left;
+   overflow: auto;
 }
 .social__text p{
-   height: 42px;
-   width: 470px;
+   height: 55px;
    margin: 18px 0 0 170px;
    font-family: "Raleway",sans-serif;
    font-size: 18px;
-   text-align: left;
    color: #86878B;
+   overflow: auto;
 }
 .social__network{
-display: flex;
-align-items: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 .social__network img{
-   margin-left: 45px;
+      margin-right: 33px;
+   }
+@media(max-width:1024px){
+   .social__text h1{
+      font-size: 18px;
+      margin: 0 auto;
+      text-align: left;
+   }
+   .social__text p{
+      font-size: 14px;
+      margin: 0 auto;
+      text-align: left;
+   }
+   .social__network{
+      padding-left: 33px;
+   }
+   .social__network img{
+      margin-right: 33px;
+   }
+}
+@media(max-width:768px){
+   .social{
+      flex-direction: column;
+      height: 239px;
+   }
+   .social__network img{
+      height: 20px;
+      margin-top: 34px;
+   }
+   .social__text h1{
+      text-align: center;
+      margin: 31px 0 15px 0;
+   }
+   .social__text p{
+      text-align: center;
+      margin: 0 auto;
+   }
+   .social__network img{
+      margin-right: 23px;
+   }
 }

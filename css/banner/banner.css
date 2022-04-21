@@ -1,20 +1,18 @@
-
 .banner__header {
    height: 75px;
-   width: 1510px;
    background-color: #000000;
+   justify-content: space-between;
    display: flex;
    position: sticky;
    top: 0px;
    z-index: 4;
 }
 .banner__logo {
-   margin-left: 115px;
-   padding-top: 22px;
+   padding-left: 115px;
 }
 .banner__menu{
    display: flex;
-   margin-left: 567px;
+   padding-right: 115px;
 }
 .banner__menu p{
    height: 75px;
@@ -34,8 +32,8 @@
 }
 .banner__row{
    position: relative;
+   justify-content: space-between;
    height: 951px;
-   width: 1510px;
    background-image: url(../../images/banner/axit.png);
    display: flex;
    background-size: cover;
@@ -65,7 +63,6 @@
    font-family: "Raleway",sans-serif;
    color: #FFFFFF;
    height:170px ;
-   width: 670px;
    padding: 128px 0 0 0;
    margin-left: 170px;
    font-size: 48px;
@@ -88,9 +85,8 @@
 }
 .column__form{
    height: 450px;
-   width: 470px;
    background-color: #FFFFFF;
-   margin: 208px 0 0 30px;
+   margin: 208px 170px 0 30px;
    border-radius: 10px;
    z-index: 3;
 }
@@ -100,14 +96,11 @@
    font-size: 24px;
    font-weight: 700;
    height: 90px;
-   width: 367px;
    margin-left: 53px;
-   text-align: center;
    line-height: 3.8;
 }
 .column__form p{
 height: 38px;
-width: 370px;
 margin-left: 50px;
 }
 .column__form div{
@@ -160,4 +153,84 @@ padding: 45px 0 0 0;
    width: 370px;
    margin-bottom: 50px;
    line-height: 36px;
+}
+@media(max-width:1024px){
+   .column__axit{
+      margin-left: 111px;
+   }
+   .column__axit h1{
+      font-size: 36px;
+      line-height: 1;
+   }
+   .column__axit hr{
+      width: 115px;
+   }
+   .column__axit p{
+      font-size: 14px;
+   }
+   .column__form{
+      width: 398px;
+   }
+   .started__button{
+      width: 398px;
+   }
+   .form__input{
+      width: 298px;
+   }
+   .column__form h1{
+      font-size: 18px;
+   }
+}
+@media(max-width:768px){
+   .axit__image{
+      display: none;
+   }
+   .banner__row{
+      flex-direction: column;
+      height: 1005px;
+   }
+   .column__axit hr{
+      width: 134px;
+      margin: 80px auto 0 auto;
+   }
+   .column__axit h1{
+      line-height: 42px;
+      padding-top: 84px;
+      margin: 0 auto;
+      text-align: center;
+   }
+   .banner__row{
+      margin: 0 auto;
+   }
+   .column__axit p{
+      margin: 42px auto 0 auto;
+      text-align: center;
+   }
+   .column__form{
+      margin: 56px auto 0 auto;
+      width: 288px;
+      height: 381px;
+   }
+   .started__button{
+      width: 288px;
+   }
+   .form__input{
+      width: 240px;
+   }
+   .column__form p{
+      margin:0 auto;
+   }
+   .axit__bannerbutton{
+      text-align: center;
+      margin: 0 auto;
+   }
+   .axit__button{
+      margin: 43px auto 0 auto;
+   }
+   .banner__row{
+      justify-content: center;
+   }
+   .column__form h1 {
+      margin: 0 auto;
+   }
 }

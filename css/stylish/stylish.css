@@ -1,4 +1,5 @@
 .stylish {
+   width: 100%;
    position: relative;
    height: 442px;
    background-image: url('../../images/stylish/image.jpg');
@@ -21,7 +22,6 @@
    color: #FFFFFF;
    font-size: 36px;
    height: 200px;
-   width: 1170px;
    margin: 0 auto;
    text-align: center;
    padding: 125px 0 40px 0;
@@ -40,13 +40,16 @@
 .stylish__text {
    position: relative;
    font-family: 'Raleway', sans-serif;
+   font-size: 18px;
    height: 18px;
    color: #FFFFFF;
    text-align: center;
    margin-top: 40px;
    z-index: 3;
 }
-
+.stylish__button{
+   text-align: center;
+}
 .stylish__textbutton {
    position: relative;
    font-family: "Open Sans", sans-serif;
@@ -55,10 +58,8 @@
    margin: 73px 0 0 0 ;
    height: 58px;
    width: 370px;
-   text-align: center;
    background-color: transparent;
    color: #FFFFFF;
-   margin-left: 570px;
    border: 1px solid #FFFFFF;
    z-index: 3;
 }
@@ -73,4 +74,38 @@
    color: #FFFFFF;
 	background-color: #AB4949;
    z-index: 3;
+}
+@media(max-width:1024px){
+   .stylish{
+      width: 100%;
+   }
+   .stylish__text{
+         font-size: 18px;
+   }  
+   .stylish__title{
+      font-size: 24px;
+   }
+   .stylish__line{
+      width: 142px;
+   }
+   .stylish__textbutton{
+      width: 318px
+   }
+}
+@media(max-width:768px){
+   .stylish{
+      width: 100%;
+   }
+   .stylish__text{
+      font-size: 14px;
+   }  
+.stylish__title{
+   font-size: 24px;
+   }
+   .stylish__line{
+      width: 134px;
+   }
+   .stylish__textbutton{
+      width: 287px
+   }
 }
