@@ -155,18 +155,27 @@ padding: 45px 0 0 0;
    line-height: 36px;
 }
 @media(max-width:1024px){
+   .axit__image {
+      margin-left: 115px;
+  }
    .column__axit{
-      margin-left: 111px;
+      margin: 0 auto;
    }
    .column__axit h1{
       font-size: 36px;
       line-height: 1;
+      margin-left: 115px;
    }
    .column__axit hr{
       width: 115px;
+      margin-left: 115px;
    }
    .column__axit p{
       font-size: 14px;
+      margin-left: 115px;
+   }
+   .axit__button{
+      margin-left: 115px;
    }
    .column__form{
       width: 398px;
