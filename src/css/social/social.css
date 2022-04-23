@@ -4,9 +4,6 @@
    height: 140px;
    background-color: #F8EFEF;
 }
-.social__text{
-   width: 100%;
-}
 .social__text h1{
    margin-left: 170px;
    height: 60px;
@@ -27,7 +24,6 @@
 }
 .social__network{
    display: flex;
-   width: 100%;
    align-items: center;
    justify-content: center;
 }
@@ -45,9 +41,11 @@
       margin: 0 auto;
       text-align: left;
    }
+   .social__network{
+      padding-left: 33px;
+   }
    .social__network img{
-      height: 48px;
-      margin: 0 auto;
+      margin-right: 33px;
    }
 }
 @media(max-width:768px){
@@ -55,12 +53,9 @@
       flex-direction: column;
       height: 239px;
    }
-   .social__network{
-      justify-content: space-evenly;
-   }
    .social__network img{
       height: 20px;
-      margin: 0 auto 55px auto;
+      margin-top: 34px;
    }
    .social__text h1{
       text-align: center;
@@ -71,6 +66,6 @@
       margin: 0 auto;
    }
    .social__network img{
-      text-align: center;
+      margin-right: 23px;
    }
 }
