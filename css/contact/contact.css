@@ -95,6 +95,7 @@ text-align: center;
    width: 571px;
    margin-bottom: 50px;
    line-height: 36px;
+   font-family: "Open Sans",s;
 }
 
 @media(max-width:1024px){
@@ -139,5 +140,8 @@ text-align: center;
    }
    .contact__line {
       width: 134px;
+   }
+   .contact__comment{
+      width: 486px;
    }
 }
