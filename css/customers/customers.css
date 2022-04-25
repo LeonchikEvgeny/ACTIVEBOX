@@ -97,7 +97,14 @@
    font-weight: 400;
    margin-top: 15px;
 }
+
 @media(max-width:1024px){
+   .user__name{
+      font-size: 18px;
+   }
+   .user__position{
+      font-size: 14px;
+   }
    .customers {
       width: 100%;
    }
@@ -116,8 +123,15 @@
    }
 }
 @media(max-width:768px){
+   .user__name{
+      font-size: 14px;
+   }
+   .user__position{
+      font-size: 13px;
+   }
    .customers {
       width: 100%;
+      height: 600px;
    }
    .customers__line{
       width: 134px;
@@ -125,8 +139,22 @@
    .column__comment{
       font-size: 14px;
       width: 180px;
+      margin: 0 auto;
    }
-   .column__triangle:nth-child(1){
-      display:none;
+   .customers__row{
+      flex-direction: column;
+   }
+   .triangleodd{
+      display: none;
+   }
+   .column__triangle::after{
+      content: "";
+      display: none;
+   }
+   .name__row:nth-child(odd){
+      display: none;
+   }
+   .rowodd{
+      display: none;
    }
 }

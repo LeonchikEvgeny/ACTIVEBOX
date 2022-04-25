@@ -103,7 +103,7 @@ text-align: center;
    }
 
    .contact__comment {
-      width: 486px;
+      width: 100%;
    }
 
    .contact__input {
