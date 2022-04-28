@@ -248,9 +248,9 @@ padding: 45px 0 0 0;
       top: 28px;
    }
    .banner__menu {
-      padding-right: 115px;
       display: block;
       position: absolute;
+      left: 0;
       bottom: 0;
       right: 0;
       transform: translateY(100%);
@@ -266,8 +266,16 @@ padding: 45px 0 0 0;
       background: #000;
       transition: .5s all;
    }
+
+   .banner__menu {
+      display: none;
+      padding-right: 0;
+   }
    #check-menu:checked ~ .banner__menu p{
       font-size: 16px;
+   }
+   #check-menu:checked ~ .banner__menu{
+      display: block;
    }
    #check-menu:checked ~ .firstburgerline{
       display: none;
