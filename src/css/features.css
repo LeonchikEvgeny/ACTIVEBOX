@@ -1,0 +1,39 @@
+.features__wrapper{
+   max-width: 1510px;
+   height: 949px;
+   margin: 0 auto;
+}
+.features__row{
+   max-width: 1170px;
+   height: 717px;
+   padding-top: 116px;
+   margin: 0 auto;
+}
+.features__firstline{
+   display: flex;
+}
+.features__secondline{
+   display: flex;
+   padding-top: 97px;
+}
+.features__colum:not(:last-child) {
+   margin-right: 30px;
+}
+.item-features__icon{
+   text-align: center;
+}
+.item-features__title{
+   text-transform: uppercase;
+   font-family: 'Raleway',sans-serif;
+   font-size: 24px;
+   font-weight: 900;
+   text-align: center;
+   padding-top: 41px;
+}
+.item-features__text{
+   font-family: 'Raleway',sans-serif;
+   font-size: 18px;
+   text-align: center;
+   color: rgba(108, 114, 121, 1);
+   padding-top: 20px;
+}
