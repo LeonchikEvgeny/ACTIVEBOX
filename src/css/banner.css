@@ -5,8 +5,11 @@
             rgba(37, 43, 73, 0.8), 
             rgba(37, 43, 73, 0.8)), url('../images/banner/banner.png'), no-repeat center/cover;
    margin: 0 auto;
-   background-repeat: round;
    background-size: cover;
+}
+#check-menu {
+   display: none;
+   opacity: 0;
 }
 .banner__header{
    height: 101px;
@@ -15,6 +18,10 @@
    margin: 0 auto;
    justify-content: space-between;
    position: relative;
+   top: 0px;
+}
+.banner__header label{
+   opacity: 0;
 }
 .banner__header::after{
    position: absolute;
@@ -29,23 +36,42 @@
    right: 0;
    margin: 0 auto;
 }
-.banner__logo{
-   display: flex;
-}
+
 .banner__menu{
    display: flex;
+   z-index: 1;
+}
+.banner__menu a{
+   text-decoration: none;
+}
+.banner__menu a:hover{
+   border-bottom: 3px solid rgba(186, 187, 197, 1);
+}
+.banner__menu a:active{
+   border-bottom: 3px solid rgba(231, 20, 20, 1);
 }
 .banner__menu p{
+   font-family: 'Raleway',sans-serif;
+   font-size: 13px;
+   font-weight: 700;
+   text-align: center;
    color: #fff;
    height: 28px;
    width: 134px;
    padding-top: 36px;
    text-align: center;
+   text-transform: uppercase;
+}
+.banner__menu p:active{
+   color: rgba(231, 20, 20, 1);
 }
 .banner__text{
    margin: 0 auto;
    text-align: center;
    max-width: 1170px;
+   flex: none;
+   position: absolute;
+   padding-top: 130px;
 }
 .banner__text h1{
 padding-top: 131px;
@@ -71,4 +97,164 @@ padding-top: 82px;
    width: 370px;
    color: rgba(255, 255, 255, 1);
    background: rgba(255, 67, 67, 1);
+}
+.button__banner:hover{
+   background-color: rgba(231, 20, 20, 1);
+}
+.button__banner:active{
+   background-color: rgba(255, 67, 67, 1);
+   box-shadow: 4px 4px 30px 0px rgba(255, 67, 67, 1);
+}
+@media(max-width:1024px) {
+   .banner__logo{
+      max-width: 150px;
+   }
+   .banner__menu p{
+      font-family: 'Raleway',sans-serif;
+      font-size: 12px;
+      height: 28px;
+      width: 112px;
+   }
+   .banner__text{
+      padding-top: 143px;
+   }
+   .banner__text h1{
+      padding-top: 158px;
+      font-size: 48px;
+   }
+   .banner__text h2{
+      padding-top: 61px;
+      font-size: 18px;
+   }
+   .button__banner{
+      width: 300px;
+   }
+}
+@media(max-width:768px) {
+   .banner__menu p{
+      height: 70px;
+      margin: 0 20px 0 20px;
+   }
+   .banner__logo{
+      max-width: 150px;
+      margin-left: 20px;
+   }
+   .banner__header::after{
+      display: none;
+   }
+   .banner__header {
+      position: relative;
+      height: 75px;
+      justify-content: space-between;
+      display: flex;
+      top: 0px;
+      z-index: 4;
+   }
+
+   #check-menu {
+      display: none;
+      width: 100%;
+   }
+
+   label {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      z-index: 2;
+   }
+
+   .burger-line {
+      
+      position: absolute;
+      top: 23px;
+      right: 10px;
+      width: 35px;
+      height: 2px;
+      background-color: #FFFFFF;
+      transition: .5s all;
+   }
+
+   .secondburgerline {
+      top: 33px;
+   }
+
+   .thirdburgerline {
+      top: 33px;
+   }
+
+   .fourthburgerline {
+      top: 43px;
+   }
+
+   .banner__menu {
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      transform: translateY(100%);
+      max-height: 0;
+      font-size: 0;
+   }
+
+   .banner__menu p {
+      display: block;
+      font-family: "Raleway", sans-serif;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-align: left;
+      transition: .5s all;
+   }
+
+   .banner__menu {
+      display: none;
+      padding-right: 0;
+   }
+
+   #check-menu:checked~.banner__menu p {
+      font-size: 16px;
+   }
+
+   #check-menu:checked~.banner__menu {
+      display: block;
+   }
+
+   #check-menu:checked~.firstburgerline {
+      display: none;
+   }
+
+   #check-menu:checked~.secondburgerline {
+      transform: rotate(45deg);
+   }
+
+   #check-menu:checked~.thirdburgerline {
+      transform: rotate(-45deg);
+   }
+
+   #check-menu:checked~.fourthburgerline {
+      display: none;
+   }
+   #check-menu:checked~.banner__text{
+      display: none;
+   }
+   .banner__text h1{
+      padding-top: 158px;
+      font-size: 36px;
+   }
+   .banner__text h2{
+      padding-top: 61px;
+      font-size: 14px;
+   }
+   .button__banner{
+      width: 279px;
+   }
+}
+@media(max-width:320px) {
+   .button__banner{
+      width: 200px;
+   }
 }

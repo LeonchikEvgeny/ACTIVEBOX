@@ -2,10 +2,13 @@
 <html lang='en'>
 
 <head>
-   <title>AXIT</title>
+   <title>ACTIVEBOX</title>
    <meta http-equiv="content-type" content="text/html; charset=utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/style.css">
+   <script src="index.js" type="module"></script>
+   <!-- CSS only -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 
 <body>
@@ -15,23 +18,28 @@
             <div class="banner__logo">
                <img src="./images/banner/logo.png" alt="">
             </div>
+            <input type="checkbox" id="check-menu">
+            <label for="check-menu">Menu</label>
+            <div class="burger-line firstburgerline"></div>
+            <div class="burger-line secondburgerline"></div>
+            <div class="burger-line thirdburgerline"></div>
+            <div class="burger-line fourthburgerline"></div>
             <div class="banner__menu">
-               <a href="">
-                  <p>features</p>
-               </a>
-               <a href="">
-                  <p>works</p>
-               </a>
-               <a href="">
-                  <p>our team</p>
-               </a>
-               <a href="">
-                  <p>testimonials</p>
-               </a>
-               <a href="">
-                  <p>download</p>
-               </a>
-            </div>
+            <a href="#features">
+               <p>Features</p>
+            </a>
+            <a href="#work">
+               <p>works</p>
+            </a>
+            <a href="#team">
+               <p>our team</p>
+            </a>
+            <a href="#swiper">
+               <p>testimonials</p>
+            </a>
+            <a href="#download">
+               <p>download</p>
+            </a>
          </div>
          <div class="banner__text">
             <h1>Your Favorite One Page
@@ -40,9 +48,10 @@
                vel scelerisque nisl consectetur et.</h2>
             <div><button class="button__banner">Find Out More</button></div>
          </div>
+         </div>
       </div>
    </section>
-   <section class="features">
+   <section class="features" id="features">
       <div class="features__wrapper">
          <div class="features__row">
             <div class="features__firstline">
@@ -93,7 +102,9 @@
                         <img src="images/features/icon_1.png" alt="">
                      </div>
                      <div class="item-features__title">Clean Code</div>
-                     <div class="item-features__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.
+                     <div class="item-features__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                        Nullam
+                        quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor
                         fringilla.
                      </div>
                   </div>
@@ -128,6 +139,187 @@
          </div>
       </div>
    </section>
+   <section class="work" id="work">
+      <div class="work__wrapper">
+         <div class="work__pictures">
+            <div class="work__item">
+               <div>
+                  <h1>Project Name</h1>
+                  <p>User Interface Design</p>
+               </div>
+            </div>
+            <div class="work__item">
+               <div>
+                  <h1>Project Name</h1>
+                  <p>User Interface Design</p>
+               </div>
+            </div>
+            <div class="work__item">
+               <div>
+                  <h1>Project Name</h1>
+                  <p>User Interface Design</p>
+               </div>
+            </div>
+            <div class="work__item">
+               <div>
+                  <h1>Project Name</h1>
+                  <p>User Interface Design</p>
+               </div>
+            </div>
+            <div class="work__item">
+               <div>
+                  <h1>Project Name</h1>
+                  <p>User Interface Design</p>
+               </div>
+            </div>
+            <div class="work__item">
+               <div><h1>Project Name</h1>
+               <p>User Interface Design</p>
+               </div>
+            </div>
+            <div class="work__item">
+               <div>
+                  <h1>Project Name</h1>
+                  <p>User Interface Design</p>
+               </div>
+            </div>
+            <div class="work__item">
+               <div>
+                  <h1>Project Name</h1>
+                  <p>User Interface Design</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="team" id="team">
+      <div class="team__wrapper">
+         <div class="our__team">
+            <div class="team__firstperson">
+               <div class="photo__ruthuser">
+                  <img src="images/team/ruth_woods.png" alt="">
+               </div>
+               <div class="name__user">Ruth Woods</div>
+               <div class="position__user">founder, ceo</div>
+               <div class="text__user">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</div>
+               <div class="network__user">
+                  <img src="images/team/facebook_icon.png" alt="">
+                  <img src="images/team/twitter_icon.png" alt="">
+                  <img src="images/team/linkedin_icon.png" alt="">
+               </div>
+            </div>
+            <div class="team__secondperson">
+               <div class="photo__timothyuser"></div>
+               <div class="name__user">Timothy Reed</div>
+               <div class="position__user">co-founder, developer</div>
+               <div class="text__user">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</div>
+               <div class="network__user">
+                  <img src="images/team/facebook_icon.png" alt="">
+                  <img src="images/team/twitter_icon.png" alt="">
+                  <img src="images/team/linkedin_icon.png" alt="">
+               </div>
+            </div>
+            <div class="team__thirdperson">
+               <div class="photo__victoriauser"></div>
+               <div class="name__user">Victoria Vladez</div>
+               <div class="position__user">ui designer</div>
+               <div class="text__user">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</div>
+               <div class="network__user">
+                  <img src="images/team/facebook_icon.png" alt="">
+                  <img src="images/team/twitter_icon.png" alt="">
+                  <img src="images/team/linkedin_icon.png" alt="">
+               </div>
+            </div>
+            <div class="team__fourthperson">
+               <div class="photo__beverlyuser"></div>
+               <div class="name__user">Beverly Little</div>
+               <div class="position__user">data scientist</div>
+               <div class="text__user">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</div>
+               <div class="network__user">
+                  <img src="images/team/facebook_icon.png" alt="">
+                  <img src="images/team/twitter_icon.png" alt="">
+                  <img src="images/team/linkedin_icon.png" alt="">
+               </div>
+            </div>
+      </div>
+      </div>
+   </section>
+   <section class="swiper" id="swiper">
+         <div class="swiper-wrapper">
+             <div class="swiper-slide">
+                 <div class="slide__img"><img src="images/testimonials/bg.png" class="slide-image" alt="#">
+                  <div class="slide__area">
+                     <h1>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</h1>
+                     <p>Susan Sims, Interaction Designer at XYZ</p>
+                  </div>
+               </div>
+             </div>
+             <div class="swiper-slide">
+               <div class="slide__img"><img src="images/testimonials/bg.png" class="slide-image" alt="#">
+                <div class="slide__area">
+                   <h1>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</h1>
+                   <p>Susan Sims, Interaction Designer at XYZ</p>
+                </div>
+             </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="slide__img"><img src="images/testimonials/bg.png" class="slide-image" alt="#">
+             <div class="slide__area">
+                <h1>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</h1>
+                <p>Susan Sims, Interaction Designer at XYZ</p>
+             </div>
+          </div>
+        </div>
+         </div>
+         <div class="swiper-pagination"></div>
+   </section>
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <section class="download" id="download">
+      <div class="download__wrapper">
+         <div class="download__block">
+            <div class="download__text">
+               <h1>Are You Ready to Start? Download Now For Free!</h1>
+               <p>Fusce dapibus, tellus ac cursus commodo</p>
+            </div>
+            <div class="download__button">
+               <button class="download__textbutton">download here</button>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="footer">
+      <div class="footer__wrapper">
+         <div class="footer__column">
+            <div class="footer__row">
+               <div class="first__row">
+                  <h1>Location</h1>
+                  <p>3481 Melrose Place
+                     Beverly Hills, CA 90210</p>
+               </div>
+               <div class="second__row">
+                  <h1>Share with Love</h1>
+                  <p>
+                     <img class="footer__network" src="images/footer/facebook_icon.png" alt="">
+                     <img class="footer__network" src="images/footer/twitter_icon.png" alt="">
+                     <img class="footer__network" src="images/footer/linkedin_icon.png" alt="">
+                  </p>
+               </div>
+               <div class="third__row">
+                  <h1>About ActiveBox</h1>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
+               </div>
+            </div>
+         </div>
+         <div class="copyright">
+            <div class="copyright__text">
+               Copyright © 2015 ActiveBox. All Rights<br> Reserved
+               Made with <span>by Kamal Chaneman</span>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- JavaScript Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>

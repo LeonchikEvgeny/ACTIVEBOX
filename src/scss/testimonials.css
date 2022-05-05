@@ -1,0 +1,58 @@
+.testimonials__wrapper{
+    max-width: 1510px;
+    margin: 0 auto;
+    height: 535px;
+    overflow: hidden;
+    position: relative;
+}
+.col {
+    width: 100%;
+    height: auto;
+    background: rgba(92, 50, 73, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .row {
+    --bs-gutter-x: -0.5rem !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    }
+    .carousel-inner-words {
+    max-width: 471px;
+    font: italic 400 2vw 'Cardo';
+    text-transform: capitalize;
+    color: #FFFFFF;
+    }
+    .carousel-indicators [data-bs-target] {
+    background: url(image/dot_not_active.svg);
+    background-repeat: no-repeat;
+    background-clip: border-box !important;
+    padding: 1px !important;
+    }
+    .container-fluid {
+    padding: 0 !important;
+    }
+    .carousel-indicators {
+    bottom: -60px !important;
+    }
+    .sixthsector {
+    width: 100%;
+    height: auto;
+    display: flex;
+    }
+    .sixthsector__container{
+    max-width: 78%;
+    height: auto;
+    margin: 20vh auto;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    }
+    .sixthsector__container-title {
+    font: normal 500 2vw 'Raleway';
+    text-align: center;
+    }
+    .sixthsector__container-paragraph {
+    font: normal 700 1.4vw 'Raleway';
+    text-align: center; 
+    }

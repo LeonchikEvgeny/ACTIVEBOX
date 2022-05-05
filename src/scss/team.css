@@ -1,0 +1,77 @@
+.team__wrapper{
+    max-width: 1510px;
+    height: 847px;
+    margin: 0 auto;
+}
+.our__team{
+    max-width: 1170px;
+    height: 619px;
+    padding-top: 114px;
+    display: flex;
+    margin: 0 auto;
+}
+.team__firstperson{
+    width: 25%;
+    height: 619px;
+    margin-right: 30px;
+}
+.photo__ruthuser{
+    width: 100%;
+    height: 270px;
+    background: url(../images/team/ruth_woods.png) no-repeat;
+}
+.name__user{
+    font-family: 'Raleway',sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 30px;
+}
+.position__user{
+    font-family: 'Raleway',sans-serif;
+    font-size: 18px;
+    text-align: left;
+    color: rgba(255, 67, 67, 1);
+    padding-top: 6px;
+    text-transform: uppercase;
+}
+.text__user{
+    font-family: 'Raleway',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(108, 114, 121, 1);
+    padding-top: 17px;
+}
+.network__user{
+    padding-top: 38px;
+}
+.team__secondperson{
+    width: 25%;
+    height: 619px;
+    margin-right: 30px;
+}
+.photo__timothyuser{
+    width: 100%;
+    height: 270px;
+    background: url(../images/team/timothy_reed.png) no-repeat;
+}
+.team__thirdperson{
+    width: 25%;
+    height: 619px;
+    margin-right: 30px;
+}
+.photo__victoriauser{
+    width: 100%;
+    height: 270px;
+    background: url(../images/team/victoria_vladez.png) no-repeat;
+}
+.team__fourthperson{
+    width: 25%;
+    height: 619px;
+}
+.photo__beverlyuser{
+    width: 100%;
+    height: 270px;
+    background: url(../images/team/beverly_little.png) no-repeat;
+}
